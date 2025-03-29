@@ -1,0 +1,268 @@
+h1 {
+    font-size: 29px;
+    line-height: 39px;
+    font-weight: 300;
+}
+
+.page-container{
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:grey;
+}
+
+.title{
+    display:flex;
+    justify-content: center;
+    font-size: 35px;
+    width:100%;
+    padding-top:2%;
+    padding-bottom:2%;
+    background-color:transparent;
+    height:5%;
+}
+
+#toggles-container-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height:10%;
+    background-color:transparent;
+}
+#toggles-container-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height:10%;
+    background-color: transparent;;
+}
+
+#toggles-container-3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height:12%;
+    background-color: transparent;
+}
+
+#toggles-container-5{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height:10%;
+    background-color: transparent;;
+}
+
+#noOfAttacks{
+    font-size:180%;
+}
+
+#toggles-container-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height:25%;
+    background-color: transparent;
+}
+
+#hex{
+    margin-left:39px;
+    margin-right:20px;
+}
+
+.toggler{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color:grey;
+    border:solid;
+    border-width:2px;
+    margin:5px;
+    width:200px;
+    height:20px;
+}
+
+.toggler2{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    background-color:grey;
+    border:solid;
+    border-width:2px;
+    margin:5px;
+    padding-left:10px;
+    padding-right:10px;
+    height:20px;
+}
+
+.selectAll{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:15px;
+    width:20px;
+    margin-left:5px;
+    border-radius:5px;
+}
+
+.multiTogCon{
+    display: flex;
+    flex-direction: row;
+}
+
+.onButn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkslategray;
+    height:15px;
+    width:20px;
+    margin-left:5px;
+    border-radius:5px;
+    color:lightgrey;
+    font-size:70%;
+}
+.onButn:hover{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkslateblue;
+    height:15px;
+    width:20px;
+    margin-left:5px;
+    border-radius:5px;
+}
+
+.toggle-text{
+    color:black;
+}
+
+.togglerBut{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    border:solid;
+    border-width:2px;
+    border-radius:6px;
+    margin-left:10px;
+    height:12px;
+    width:12px;
+    font-size: 70%;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.on{
+    background-color:black;
+    color:white;
+    border-color:black;
+}
+
+.off{
+    background-color:white;
+    color:black;
+}
+
+.hidden{
+    display:none;
+}
+.red{
+    color:darkred;
+}
+
+.hp-input{
+    width:25%;
+    margin-left:10px;
+}
+
+
+.big-roll-container{
+    display: flex;
+    flex-direction: row;
+    background-color:transparent;
+    justify-content: center;
+    height:15%;
+    width:90%;
+    margin:10px;
+}
+.big-result-container{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color:transparent;
+    height:100%;
+    margin-left:30px;
+    font-size:140%;
+}
+
+.big-roll{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding-left:10%;
+    padding-right:10%;
+    font-size:150%;
+    border-radius: 15px;
+}
+
+.all-results-container{
+    height:95%;
+    background-color:transparent;
+    width:100%;
+}
+
+
+.rollStatContainer{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:lightgray;
+    margin-left:5%;
+    margin-bottom:5px;
+    height:25px;
+    width:90%;
+}
+
+.rollStatButton{
+    margin:15px;
+}
+
+.onButton{
+    background-color:darkslateblue;
+    color:lightblue;
+    border-radius:20%;
+}
+
+.rollStatButton:visited {
+    background-color:black;
+}
+
+.rollStatInfo{
+
+}
+
+p{
+    margin-right:5px;
+}
+
+.total-n-mp{
+    font-size:70%;
+    color:darkslategray;
+}
+
+
+
